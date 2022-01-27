@@ -1,0 +1,327 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+.about {
+    height: 100%;
+    background-color: #ffeeff;
+    background-image:
+      -o-linear-gradient(315deg, white 25%, transparent 25%),
+      -o-linear-gradient(225deg, white 25%, transparent 25%),
+      -o-linear-gradient(45deg, white 25%, transparent 25%),
+      -o-linear-gradient(135deg, white 25%, transparent 25%);
+    background-image:
+      linear-gradient(135deg, white 25%, transparent 25%),
+      linear-gradient(225deg, white 25%, transparent 25%),
+      linear-gradient(45deg, white 25%, transparent 25%),
+      linear-gradient(315deg, white 25%, transparent 25%);
+    background-position:
+      25px 0,
+      25px 0,
+      0 0,
+      0 0;
+    background-size: 50px 50px;
+    background-repeat: repeat;
+}
+
+.about .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.about__desc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 100px;
+}
+
+.about__desc p {
+    color: #000000;
+    word-break: break-word;
+}
+
+.about__consist {
+    list-style: none;
+}
+
+.about__consist-left {
+    margin: 0 90px 0 0;
+}
+
+.about__consist-right {
+    margin: 0 0 0 90px;
+}
+
+.about__consist p {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+
+    position: relative;
+    margin: 20px;
+
+    width: 160px; 
+    height: 160px;
+    text-align: center;
+
+    border: 2px solid #000000;
+    border-radius: 50%;
+    background: url(../images/prod.png) no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+}
+
+.about__consist .about__consist-1 {
+    background-position: -30px -10px;
+}
+
+.about__consist .about__consist-2 {
+    background-position: 0px -10px;
+}
+
+.about__consist .about__consist-3 {
+    background-position: 60px -10px;
+}
+
+.about__consist .about__consist-4 {
+    background-position: 60px -80px;
+}
+
+.about__consist .about__consist-5 {
+    background-position: 0px -80px;
+}
+
+.about__consist .about__consist-6 {
+    background-position: -70px -80px;
+}
+
+
+.about__consist .about__consist-1::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    right: -110px;
+    width: 190px;
+    height: 40px;
+    background-image: -o-linear-gradient(65deg, transparent 54%, #000000 54%, #000000 56%, transparent 56%);
+    background-image: linear-gradient(25deg, transparent 54%, #000000 54%, #000000 56%, transparent 56%);
+}
+
+.about__consist .about__consist-2::after {
+    content: "";
+    position: absolute;
+    top: 45%;
+    right: -70px;
+    width: 70px;
+    height: 40px;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), color-stop(50%, #000000), color-stop(55%, #000000), color-stop(55%, transparent));
+    background-image: -o-linear-gradient(transparent 50%, #000000 50%, #000000 55%, transparent 55%);
+    background-image: linear-gradient(transparent 50%, #000000 50%, #000000 55%, transparent 55%);
+}
+
+.about__consist .about__consist-3::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    right: -110px;
+    width: 190px;
+    height: 40px;
+    background-image: -o-linear-gradient(295deg, transparent 54%, #000000 54%, #000000 56%, transparent 56%);
+    background-image: linear-gradient(155deg, transparent 54%, #000000 54%, #000000 56%, transparent 56%);
+}
+
+
+.about__consist .about__consist-4::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: -135px;
+    width: 190px;
+    height: 40px;
+    background-image: -o-linear-gradient(295deg, transparent 54%, #000000 54%, #000000 56%, transparent 56%);
+    background-image: linear-gradient(155deg, transparent 54%, #000000 54%, #000000 56%, transparent 56%);
+}
+
+.about__consist .about__consist-5::after {
+    content: "";
+    position: absolute;
+    top: 45%;
+    left: -70px;
+    width: 70px;
+    height: 40px;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), color-stop(50%, #000000), color-stop(55%, #000000), color-stop(55%, transparent));
+    background-image: -o-linear-gradient(transparent 50%, #000000 50%, #000000 55%, transparent 55%);
+    background-image: linear-gradient(transparent 50%, #000000 50%, #000000 55%, transparent 55%);
+}
+
+.about__consist .about__consist-6::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -135px;
+    width: 190px;
+    height: 40px;
+    background-image: -o-linear-gradient(65deg, transparent 54%, #000000 54%, #000000 56%, transparent 56%);
+    background-image: linear-gradient(25deg, transparent 54%, #000000 54%, #000000 56%, transparent 56%);
+}
+
+.about__btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.about__btn a {
+    margin-top: 50px;
+}
+
+@media (max-width: 1200px) {
+    .about__btn img {
+        width: 150px;
+        height: 232px;
+        margin-top: 50px;
+    }
+
+    .about__consist-left {
+        margin: 0 50px 0 0;
+    }
+
+    .about__consist-right {
+        margin: 0 0 0 50px;
+    }
+
+    .about__consist p {
+        width: 110px;
+        height: 110px;
+        margin: 7px;
+
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .about__btn a {
+        margin-top: 20px;
+    }
+
+    .about__consist .about__consist-1::after {
+        width: 60px;
+        right: -55px;
+    }
+    .about__consist .about__consist-2::after {
+        right: -53px;
+        width: 51px;
+        height: 10px;
+    }
+    .about__consist .about__consist-3::after {
+        width: 60px;
+        right: -53px;
+    }
+    .about__consist .about__consist-4::after {
+      width: 60px;
+      left: -51px;
+    }
+    .about__consist .about__consist-5::after {
+        left: -52px;
+        width: 50px;
+        height: 10px;
+    }
+    .about__consist .about__consist-6::after {
+        width: 60px;
+        left: -51px;
+    }
+}
+
+@media (max-width: 992px) {
+    .about__consist p {
+        width: 90px;
+        height: 90px;
+        margin: 5px;
+    }
+
+    .about__desc{
+        gap: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .about__desc{
+        display: none;
+    }
+    
+    .about__btn img, .about__consist .about__consist-1::after,.about__consist .about__consist-2::after, .about__consist .about__consist-3::after, .about__consist .about__consist-4::after, .about__consist .about__consist-5::after, .about__consist .about__consist-6::after {
+        display: none;
+    }
+
+    .about .container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+
+    .about__consist-left {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        margin: 0;
+    }
+
+    .about__consist-right {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        margin: 10px 0;
+    }
+
+    .about__btn {
+        -webkit-box-ordinal-group: 2;
+            -ms-flex-order: 1;
+                order: 1;
+    }
+}

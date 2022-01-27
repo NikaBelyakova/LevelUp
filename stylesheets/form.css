@@ -1,0 +1,109 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+form {
+  max-width: 600px;
+  margin: 50px auto 15px;
+  padding: 20px;
+
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 0 10px #5e255c;
+          box-shadow: 0 0 10px #5e255c;
+}
+
+fieldset {
+  padding: 10px;
+  border: none;
+}
+
+fieldset legend {
+  color: #5e255c;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input{
+  width: 95%;
+  height: 24px;
+  margin-bottom: 10px;
+  padding: 2px 5px;
+
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  vertical-align: middle;
+
+  border: 1px solid #5e255c;
+}
+
+
+input[type="submit"] {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  margin: 0 5px;
+  padding: 15px 30px;
+
+  color: #ffffff;
+  text-transform: uppercase;
+
+  background-color: #5e255c;
+  border: none;
+}
+
+input[type="submit"]:hover {
+  background-color: #a846a5;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.buttons {
+  margin-top: 10px;
+
+  text-align: center;
+}
+
+.raz {
+  position: relative;
+  margin-top: 30px;
+}
+.raz span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: .2s;
+  -o-transition: .2s;
+  transition: .2s;
+}
+
+.raz input:-moz-placeholder-shown:focus ~ span, .raz input:not(:-moz-placeholder-shown) ~ span {
+  top: 35%;
+  right: 25px;
+  opacity: 1;
+  font-size: 80%;
+  visibility: visible;
+}
+
+.raz input:-ms-input-placeholder:focus ~ span, .raz input:not(:-ms-input-placeholder) ~ span {
+  top: 35%;
+  right: 25px;
+  opacity: 1;
+  font-size: 80%;
+  visibility: visible;
+}
+
+.raz input:placeholder-shown:focus ~ span,
+.raz input:not(:placeholder-shown) ~ span {
+  top: 35%;
+  right: 25px;
+  opacity: 1;
+  font-size: 80%;
+  visibility: visible;
+}
